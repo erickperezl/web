@@ -1,0 +1,47 @@
+baseURL = "https://erick-lerma.netlify.app"
+title = "Erick Lerma"
+theme = "gokarna"
+languageCode = "en"
+defaultContentLanguage = "en"
+enableEmoji = true
+enableRobotsTXT = true
+
+# Choose one of emacs, trac or perldoc
+pygmentsStyle = "api"
+
+[params]
+  footer = ""
+
+  description = "Full Stack Web Developer"
+  avatarURL = "/images/avatar.jpeg"
+  avatarSize = "size-m"
+  customHeadHTML = """
+
+  """
+  socialIcons = [
+    {name = "twitter", url = "https://twitter.com/ericklerma10"},
+    {name = "github", url = "https://github.com/ericklerma"},
+    {name = "instagram", url = "https://instagram.com/erick.kr"},
+  ]
+  metaKeywords = ["blog", "ericklerma", "hugo", "Full Stack Web Developer"]
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 3
+
+  [[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 4
