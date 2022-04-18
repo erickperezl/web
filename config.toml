@@ -33,7 +33,7 @@ pygmentsStyle = "api"
 
   [[menu.main]]
     name = "Posts"
-    url = "/posts/"
+    url = "/content/"
     weight = 2
 
   [[menu.main]]
